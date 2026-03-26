@@ -18,7 +18,7 @@ COPY . .
 RUN mix release
 
 # imagem final só com o necessário pra rodar
-FROM alpine:3.19
+FROM alpine:3.12
 
 # libs que o erlang precisa
 RUN apk add --no-cache libgcc libstdc++ openssl ncurses-libs
