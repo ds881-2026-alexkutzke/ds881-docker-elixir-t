@@ -1,0 +1,9 @@
+_build/
+deps/
+.git/
+*.Dockerfile
+*.sh
+*.md
+.dockerignore
+priv/static/
+test/
