@@ -1,0 +1,9 @@
+.git
+.gitignore
+deps
+docs
+DockerFile
+_build
+*.swp
+*.swo
+*.DS_Store
